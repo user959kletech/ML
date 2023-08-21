@@ -1,0 +1,24 @@
+1)list with embedded set to store student data:
+list1=[{'ramesh',1,'hubli'},{'suresh',2,'dharwad'},{'ram',3,'gadag'},{'shyam',4,'bengaluru'}]
+print(list1)
+2)and vs &
+&-bitwise and
+and-prints the lowest value:
+a=3
+b=5
+print(a & b)
+print(a and b)
+3)in and not in condition (membership operator):
+x='python'
+print('i' in x)
+print('i' not in x)
+4)is and is not condition(identify operator):
+a=5
+b=6
+print(a is b)
+print(a is not b)
+5)string slicing and string concatenation:
+a='hello'
+b=' world'
+print(a[1:4])
+print(a+b)
