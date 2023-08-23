@@ -1,0 +1,28 @@
+1)pattern generator:
+a)
+x=int(input("enter a number:"))
+num=x
+for i in range(0,num,1):
+  for j in range(0,x,1):
+    print("*",end="")
+  print()
+  x-=1
+b)
+x=int(input("enter a number:"))
+num=x
+k=1
+p=x
+for i in range(0,num,1):
+  for z in range(1,p,1):
+   print(" ",end="")
+  for j in range(0,k,1):
+    print("*",end="")
+    print(" ",end="")
+  k+=1
+  p-=1
+  print()
+2)generate multiplication tables:
+x=int(input("enter a number:"))
+for i in range(1,11,1):
+  mul=x*i
+  print(x, "x", i ,"=" ,mul)
